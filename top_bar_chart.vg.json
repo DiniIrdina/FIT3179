@@ -7,7 +7,10 @@
   
     "height": {"step": 17},
     "data": {"url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/Week%209%20Homework/Billionaire%20Networth.csv"},
-    "transform": [{"filter": "datum.Rank <= 10 && Country_selection == null || datum.Country == Country_selection"}],
+  
+    "transform": [
+        {"filter": "(Country_selection == null || datum.Country == Country_selection) && datum.rank <= 10"}],
+  
     "params": [
   {
   "name": "Country_selection","bind": {
@@ -38,7 +41,7 @@
       "y": {"field": "Name", "title": "Billionaires"},
       "color": {"field": "NetWorth", "type": "quantitative","scale": {"range": ["#FEEBAF","#FFC300"]
       }
-    },
+    },"text": {"font": "Times New Roman"},
     "tooltip": [{"field":"NetWorth", "type":"quantitative","format":".1f", "title": "Net Worth in $B"}]
     }
   }
