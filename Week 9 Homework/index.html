@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Billionaire Visualisation</title>
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
@@ -22,8 +22,6 @@
 
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="./styles.css" media="all">
-
-    <title>First vega-lite graph </title>
 </head>
 
 <body>
@@ -53,15 +51,11 @@
 
 <script type="text/javascript">
     var specVis1 = "./chloropleth_map.json";
-    var specVis2 = "./wordcloud.vg.json";
 
     vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
 
-    vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-    }).catch(console.error);
   </script>
     
 </body>
