@@ -30,6 +30,8 @@
     <div class="page">
 
         <div class="pure-g">
+            <div id="vis1"></div>
+              </div>
             <div class="pure-u-1-1">
               <h1>2021 Billionaires Visualisation</h1>
               <p>This page displays 3 visualisations centred around the dataset of Billionaires in 2021.</p>
@@ -45,14 +47,14 @@
             </div>
 
             <div class="pure-u-1-2">
-              <div id="vis1" class="vis-container"></div>
+              <div id="vis1"></div>
               </div>
             </div>    
 
     </div>
 
 <script type="text/javascript">
-    var specVis1 = "./chloropleth_map.vg.json";
+    var specVis1 = "./chloropleth_map.json";
     var specVis2 = "./wordcloud.vg.json";
 
     vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
