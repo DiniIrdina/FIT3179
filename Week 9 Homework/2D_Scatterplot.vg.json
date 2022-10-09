@@ -1,0 +1,27 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 500,
+    "data": {"url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/Week%209%20Homework/Billionaire%20Networth.csv"},
+    "transform": [{"filter": "datum.NetWorth <= 20"}],
+  
+    "mark": "circle",
+    "encoding": {
+      "x": {
+        "bin": {"maxbins": 15},
+        "field": "NetWorth"
+      },
+      "y": {
+        "bin": {"maxbins": 8},
+        "field": "Age Range"
+      },
+      "color":{"field":"Age Range", "scale":{"range": ["#901F1D","#0B6E4F", "#1A3E74","#F2BB05"]},"legend":{"format": ".1s"}},
+      "size": {"aggregate": "count"},
+      "tooltip": [{"field":"NetWorth", "type":"quantitative","format":".1f", "title": "Net Worth in $B"},
+      {"field":"Age Range", "type": "ordinal", "title": "Age Range"},
+      {"field":"count","type": "quantitative"
+      }]
+      
+    }
+  }
+  
