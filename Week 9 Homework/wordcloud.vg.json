@@ -8,7 +8,7 @@
     "data": [
       {
         "name": "table",
-        "url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/Week%209%20Homework/Billionaire%20Industry.csv"
+        "url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/Week%209%20Homework/csv%20files/Billionaire%20Industry.csv"
         ,
         "transform": [
           {
