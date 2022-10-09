@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Billionaire Visualisation</title>
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
@@ -50,10 +49,9 @@
     </div>
 
 <script type="text/javascript">
-    var specVis1 = "./chloropleth_map.json";
+    var vg_1 = "./map.json";
 
-    vegaEmbed('#vis1', specVis1, { "actions": false }).then(function (result) {
-      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    vegaEmbed('#vis1', vg_1).then(function (result) {
     }).catch(console.error);
 
   </script>
