@@ -45,13 +45,18 @@
                 <p>The visualisation shows the count of billionaires in each country. </p>
               </div>
             </div>
-            
+
             <div class="pure-u-1-2">
               <div id="vis1" class="vis-container"></div>
             </div>
           </div>    
 
     </div>
+
+    <script type="text/javascript">
+        var specVis1 = "./chloropleth_map.vg.json";    
+        vegaEmbed('#vis1', specVis1, { "actions": false });
+      </script>
     
     
 </body>
