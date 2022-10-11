@@ -1,11 +1,12 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Top Billionaires of 2021",
-  "width": 600,
+ 
+  "width": 400,
+  
   "background": null,
-  "config": {"axis": {"labelFont": "Helvetica", "titleFont": "Helvetica"},
+  "config": {"axis": {"labelFont": "Times New Roman", "titleFont": "Times New Roman"},
   "legend": {"labelFont": "Helvetica", "titleFont": "Helvetica"},
-  "title": {"font": "Helvetica", "subtitleFont": "Helvetica"}},
+  "title": {"font": "Times New Roman", "subtitleFont": "Helvetica", "fontSize":20}},
 
   "height": {"step": 25},
   "data": {"url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/data/csv%20files/Billionaire%20Networth.csv"},
@@ -49,17 +50,12 @@ null,
   "encoding": {
     "x": {"field": "NetWorth", "type": "quantitative", "title": "Net Worth in $B"},
     "y": {"field": "Name", "title": "Billionaires"},
-    "color": {"field": "NetWorth", "type": "quantitative","scale": {"range": ["#FEEBAF","#FFC300"]
+    "color": {"field": "NetWorth", "type": "quantitative","scale": {"range":  ["#c2ead8","#23A87E","#1A7A5B","#0C5F45","#153D2A"]
     }
   },
   "tooltip": [{"field":"NetWorth", "type":"quantitative","format":".1f", "title": "Net Worth in $B"},
   {"field": "Country"}]
   }
-},
-{"mark":{"type": "text",
-"align":"right", "baseline": "line-bottom",
-"dx": 250,"dy": 100,
-"fontSize": 11}, "encoding": {"text":{"value":["The United States of America hold the ","record for having the most billionaires. "]},
-"color":{"value":"black"}}}]
+}]
   
 }

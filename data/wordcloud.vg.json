@@ -1,76 +1,76 @@
 {
-    "$schema": "https://vega.github.io/schema/vega/v5.json",
-    "description": "A word cloud visualization depicting Vega research paper abstracts.",
-    "width": 1300,
-    "height": 500,
-    "padding": 0,
-  
-    "data": [
-      {
-        "name": "table",
-        "url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/Week%209%20Homework/csv%20files/Billionaire%20Industry.csv"
-        ,
-        "transform": [
-          {
-            "type": "countpattern",
-            "field": "data",
-            "case": "upper",
-            "pattern": "[\\w']{3,}"
-          },
-          {
-            "type": "formula", "as": "angle",
-            "expr": "[-20, 0, 20][~~(random() * 3)]"
-          },
-          {
-            "type": "formula", "as": "weight",
-            "expr": "if(datum.text=='TECHNOLOGY' || datum.text == 'INVESTMENTS', 700, 400)"
-          }
-        ]
-      }
-    ],
-  
-    "scales": [
-      {
-        "name": "color",
-        "type": "ordinal",
-        "domain": {"data": "table", "field": "text"},
-        "range": ["#901F1D","#0B6E4F", "#1A3E74","#F2BB05"]
-      }
-    ],
-  
-    "marks": [
-      {
-        "type": "text",
-        "from": {"data": "table"},
-        "encode": {
-          "enter": {
-            "text": {"field": "text"},
-            "align": {"value": "center"},
-            "baseline": {"value": "alphabetic"},
-            "fill": {"scale": "color", "field": "text"},
-            "tooltip": 
-                     {"signal": "'Count: ' + datum.count"}
-          },
-          "update": {
-            "fillOpacity": {"value": 1}
-          },
-          "hover": {
-            "fillOpacity": {"value": 0.5}
-          }
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A word cloud visualization depicting Vega research paper abstracts.",
+  "width": 980,
+  "height": 400,
+  "padding": 0,
+
+  "data": [
+    {
+      "name": "table",
+      "url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/data/csv%20files/Billionaire%20Industry.csv"
+      ,
+      "transform": [
+        {
+          "type": "countpattern",
+          "field": "data",
+          "case": "upper",
+          "pattern": "[\\w']{3,}"
         },
-        "transform": [
-          {
-            "type": "wordcloud",
-            "size": [1200, 500],
-            "text": {"field": "text"},
-            "rotate": {"field": "datum.angle"},
-            "font": "Times New Roman",
-            "fontSize": {"field": "datum.count"},
-            "fontWeight": {"field": "datum.weight"},
-            "fontSizeRange": [20, 70],
-            "padding": 2
-          }
-        ]
-      }
-    ]
-  }
+        {
+          "type": "formula", "as": "angle",
+          "expr": "[-20, 0, 20][~~(random() * 3)]"
+        },
+        {
+          "type": "formula", "as": "weight",
+          "expr": "if(datum.text=='TECHNOLOGY' || datum.text == 'INVESTMENTS', 600, 300)"
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "text"},
+      "range": ["#901F1D","#0B6E4F", "#1A3E74","#F2BB05"]
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "text": {"field": "text"},
+          "align": {"value": "center"},
+          "baseline": {"value": "alphabetic"},
+          "fill": {"scale": "color", "field": "text"},
+          "tooltip": 
+                   {"signal": "'Count: ' + datum.count"}
+        },
+        "update": {
+          "fillOpacity": {"value": 1}
+        },
+        "hover": {
+          "fillOpacity": {"value": 0.5}
+        }
+      },
+      "transform": [
+        {
+          "type": "wordcloud",
+          "size": [980, 400],
+          "text": {"field": "text"},
+          "rotate": {"field": "datum.angle"},
+          "font": "Times New Roman",
+          "fontSize": {"field": "datum.count"},
+          "fontWeight": {"field": "datum.weight"},
+          "fontSizeRange": [15, 70],
+          "padding": 2
+        }
+      ]
+    }
+  ]
+}
