@@ -4,8 +4,8 @@
   "width": 400,
   
   "background": null,
-  "config": {"axis": {"labelFont": "Times New Roman", "titleFont": "Times New Roman"},
-  "legend": {"labelFont": "Helvetica", "titleFont": "Helvetica"},
+  "config": {"axis": {"labelFont": "Open Sans", "titleFont": "Open Sans","titleFontSize":13, "labelFontSize":11},
+  "legend": {"labelFont": "Open Sans", "titleFont": "Open Sans","titleFontSize":13, "labelFontSize":11},
   "title": {"font": "Times New Roman", "subtitleFont": "Helvetica", "fontSize":20}},
 
   "height": {"step": 25},

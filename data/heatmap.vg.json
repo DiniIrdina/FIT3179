@@ -56,18 +56,18 @@
         "value": 0
       }
     }},{"mark":{"type": "text","color":"yellow",
-  "align":"right", "baseline": "line-bottom", "font":"Times New Roman",
+  "align":"right", "baseline": "line-bottom", "font":"Open Sans",
   "dx": 450,"dy": 155, "fontWeight":"lighter",
-  "fontSize": 12}, "encoding": {"text":{"value":["Only 3% of the world's billionaires "," have a net worth of more than $20B "]},
+  "fontSize": 18}, "encoding": {"text":{"value":["Only 3% of the world's billionaires "," have a net worth of more than $20B "]},
   "color":{"value":"black"}}}],
     
     "config": {
       "view": {
         "stroke": "transparent"
       },
-      "axis": {"labelFont": "Times New Roman", "titleFont": "Times New Roman"},
-    "legend": {"labelFont": "Times New Roman", "titleFont": "Times New Roman"},
-    "title": {"font": "Times New Roman", "subtitleFont": "Helvetica", "fontSize":20}
+      "axis": {"labelFont": "Open Sans", "titleFont": "Open Sans","titleFontSize":13, "labelFontSize":10},
+    "legend": {"labelFont": "Open Sans", "titleFont": "Open Sans","titleFontSize":13, "labelFontSize":10},
+    "title": {"font": "Open Sans", "subtitleFont": "Open Sans", "fontSize":20}
     }
   }
   
