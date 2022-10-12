@@ -1,7 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "config": {"axis": {"labelFont": "Times New Roman", "titleFont": "Times New Roman"},
+  "legend": {"labelFont": "Helvetica", "titleFont": "Helvetica"},
+  "title": {"font": "Times New Roman", "subtitleFont": "Helvetica", "fontSize":20}},
   "width": 800,
-  "height": 500,
+  "height": 400,
   "background":null,
   "data": {"url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/data/csv%20files/Billionaire%20Networth.csv"},
   "transform": [{"filter": "datum.NetWorth <= 20"}],

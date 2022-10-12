@@ -37,7 +37,7 @@
             </div>
           </div>
 
-          <div class="pure-g">
+          <!-- <div class="pure-g">
             <div class="pure-u-1">
               
                 <h2>Billionaires Across the Globe</h2>
@@ -60,31 +60,46 @@
                 </div>
               </div> 
 
-
+              </div> -->
+              <div class="pure-g">
+                <div id="container1" >
+                <div class="pure-u-1">
+                  <!-- <div class="description description-left"> -->
+                    <h2>Billionaires Across the Globe</h2>
+                    <div class="p1">The visualisation shows the count of billionaires in each country. The U.S. still has more 
+                      billionaires than any other country, with <span class = "gold">724</span> worth (up from 614 last year). China is closing 
+                      the gap with <span class = "gold">626</span>
+                      (excluding 71 from Hong Kong and 1 from Macao). Last year the U.S. had 614 billionaires and China had 456 (including 66 from 
+                      Hong Kong and 1 Macao). As a result of the gains in China, Beijing is home to more billionaires than anywhere in the world, 
+                      overtaking New York City. India has the third highest number of billionaires, with <span class = "gold">140</span>. Altogether, the 1,149 billionaires 
+                      from Asia-Pacific countries are worth <span class = "gold"></span>$4.7 trillion, while the U.S. billionaires are worth a total $4.4 trillion. </div>
+                  <!-- </div> -->
+                </div>
+                <div class="pure-u-1">
+                  
+                  <div id="vis1" class="vis-container"></div>
+                </div>
+              </div>
+              </div>
 
 
               <div class="pure-g">
                 <div id="container2" >
-                <div class="pure-u-1-2">
-                  <div class="description description-left">
-                    <h2>Top Billionaires</h2>
-                    <div class="p2">The first column contains text and the second column contains a visualisation.
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </div>
+                  <div class="pure-u-1-2">
+                    <div class="description description-left">
+                      <h2>Top Billionaires</h2>
+                      <div class="p2">The first column contains text and the second column contains a visualisation.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </div>
+                    </div>
                   </div>
-                </div>
-                <div class="pure-u-1-2">
-                  
-                  <div id="vis2" class="vis-container"></div>
-                </div>
+                  <div class="pure-u-1-2">
+                    <div id="vis2" class="vis-container"></div>
+                  </div>
               </div>
               </div>
 
-
-
-            
-            
               <!-- <div class="pure-g">
               <div class="pure-u-1-1">
                 <div class="description description-left">
@@ -103,24 +118,42 @@
               </div> -->
 
 
-
-
-              <div class="pure-u-1">
-                <div class="description description-left">
-                  <h2>Most Prevalent Industries</h2>
-                  <p>
-                  </p>
+              <div class="pure-g">
+                <div id="container1" >
+                <div class="pure-u-1">
+                  <div class="description description-left">
+                    <h2>Most Prevalent Industries</h2>
+                    <div class="p1">The first column contains text and the second column contains a visualisation.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </div>
+                  </div>
+                </div>
+                <div class="pure-u-1">
+                  
+                  <div id="vis3" class="vis-container"></div>
                 </div>
               </div>
-              
-              <div id="container1">
-                
-                  <div class="pure-u-1">
-                    <div id="vis3" class="vis-container"></div>
+              </div>
+
+              <div class="pure-g">
+                <div id="container1" >
+                <div class="pure-u-1">
+                  <h2>Age Range</h2>
+                  <div id="vis4" class="vis-container"></div>
+                </div>
+                <div class="pure-u-1">
+                  <div class="description description-left">
+                    
+                    <div class="p1">The first column contains text and the second column contains a visualisation.
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </div>
                   </div>
-          
-            </div>
-            </div>
+                </div>
+              </div>
+              </div>
+
           
 
     </div>
@@ -129,6 +162,7 @@
     var vg_1 = "data/map.json";
     var vg_2 = "data/top_bar_chart.vg.json";
     var vg_3 = "data/wordcloud.vg.json";
+    var vg_4 = "data/2D_Scatterplot.vg.json";
 
     vegaEmbed('#vis1', vg_1).then(function (result) {
     }).catch(console.error);
@@ -137,6 +171,9 @@
     }).catch(console.error);
 
     vegaEmbed('#vis3', vg_3).then(function (result) {
+    }).catch(console.error);
+
+    vegaEmbed('#vis4', vg_4).then(function (result) {
     }).catch(console.error);
 
   </script>

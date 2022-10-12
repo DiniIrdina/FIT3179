@@ -9,8 +9,6 @@ body *{
     font-family: 'Open Sans', sans-serif;
     margin: auto;
     max-width: max-content;
-
-
 }
 
 h1 {
@@ -21,10 +19,11 @@ h1 {
 }
 
 h2 {
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 10px;
     font-family: parklane;
     font-size: 2em;
+    text-align: center;
 }
 
 body {
@@ -47,7 +46,6 @@ body {
 .vis-container {
     width: 90%;
     height: 100%;
-
 }
 
 p{
@@ -64,10 +62,22 @@ p{
     
 }
 
-.p2{
+.p1{
     font-size: 14px;
     text-align: justify;
     align-items: center;
+    line-height: 170%;
+	width:100%;
+	font-family:'Times New Roman', Times, serif;
+	color:#100e0e;
+    min-width: 1000px ;
+    max-width: 1000px;
+    padding-bottom:20px ;
+}
+
+.p2{
+    font-size: 14px;
+    text-align: justify;
     line-height: 170%;
 	width:100%;
 	font-family:'Times New Roman', Times, serif;
@@ -113,6 +123,8 @@ h1 {
 	padding: 20px; 
 	height: 100%;
     align-items: center;
+    max-width: 1000px;
+    min-width: 1000px;
 	background: #f2f2f2;
     align-self: center;
 }
@@ -120,7 +132,7 @@ h1 {
 #container2{
 	border-radius: 25px;
 	border: 3px solid rgb(5, 5, 5);
-	padding: 50px; 
+	padding: 30px; 
 	height: 100%;
     max-width: max-content;
     min-width: max-content;
