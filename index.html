@@ -21,6 +21,7 @@
 
     <!-- Animate on Scroll link -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- CSS file -->
     <link rel="stylesheet" type="text/css" href="data/styles.css" media="all">
@@ -62,7 +63,7 @@
 
               </div> -->
               <div class="pure-g">
-                <div id="container1" >
+                <div id="container1" data-aos="fade-left" data-aos-duration="2000" >
                 <div class="pure-u-1">
                   <!-- <div class="description description-left"> -->
                     <h2>Billionaires Across the Globe</h2>
@@ -84,7 +85,7 @@
 
 
               <div class="pure-g">
-                <div id="container2" >
+                <div id="container2" data-aos="fade-right" data-aos-duration="2000">
                   <div class="pure-u-1-2">
                     <div class="description description-left">
                       <h2>Top Billionaires</h2>
@@ -100,29 +101,12 @@
               </div>
               </div>
 
-              <!-- <div class="pure-g">
-              <div class="pure-u-1-1">
-                <div class="description description-left">
-                  <h2>Top Billionaires</h2>
-                  <p>This bar chart displays the Top 10 Billionaires of 2021. However, when using the selection filter,
-                    it will display all the billionaires in each respective country.
-                  </p>
-                </div>
-              </div>
-              <div class="pure-u-1-2">
-                  <div id="container2">
-                    <div id="vis2" class="vis-container"></div>
-                  </div>
-                </div>
-
-              </div> -->
-
 
               <div class="pure-g">
-                <div id="container1" >
+                <div id="container1" data-aos="fade-right" data-aos-duration="2000">
                 <div class="pure-u-1">
                   <div class="description description-left">
-                    <h2>Most Prevalent Industries</h2>
+                    <h2>  Most Prevalent Industries</h2>
                     <div class="p1">The first column contains text and the second column contains a visualisation.
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                       dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -137,7 +121,7 @@
               </div>
 
               <div class="pure-g">
-                <div id="container1" >
+                <div id="container1" data-aos="fade-left" data-aos-duration="2000">
                 <div class="pure-u-1">
                   <h2>Age Range</h2>
                   <div id="vis4" class="vis-container"></div>
@@ -145,10 +129,7 @@
                 <div class="pure-u-1">
                   <div class="description description-left">
                     
-                    <div class="p1">The first column contains text and the second column contains a visualisation.
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                      dolore magna aliqua. Massa sapien faucibus et molestie ac feugiat sed. </div>
+                    <div class="p1">This visual </div>
                   </div>
                 </div>
               </div>
@@ -159,10 +140,12 @@
     </div>
 
 <script type="text/javascript">
+
+    AOS.init();
     var vg_1 = "data/map.json";
     var vg_2 = "data/top_bar_chart.vg.json";
     var vg_3 = "data/wordcloud.vg.json";
-    var vg_4 = "data/2D_Scatterplot.vg.json";
+    var vg_4 = "data/heatmap.vg.json";
 
     vegaEmbed('#vis1', vg_1).then(function (result) {
     }).catch(console.error);

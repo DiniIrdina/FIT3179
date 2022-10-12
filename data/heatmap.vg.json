@@ -1,0 +1,73 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/data/csv%20files/Billionaire%20Networth.csv"},
+    "background":null,
+    "width": 800,
+    "height": 400,
+    "transform": [{
+      "filter": {"and": [{"field": "NetWorth","lte":20},
+        {"field": "NetWorth", "valid": true},
+        {"field": "Age", "valid": true}
+      ]}
+    }],"layer":[{"params": [
+      {
+        "name": "highlight",
+        "select": {"type": "point", "on": "mouseover"}
+      },
+      {"name": "select", "select": "point"}
+    ],
+    "mark": {"type":"rect", "stroke": "black",
+      "cursor": "pointer"},
+    "encoding": {
+      "x": {
+        "bin": {"maxbins":40},
+        "field": "NetWorth",
+        "type": "quantitative",
+        "title": "Networth in $B"
+      },
+      "y": {
+        "bin": {"maxbins": 10},
+        "field": "Age",
+        "type": "quantitative",
+        "title":"Age Range"
+      },
+      "color": {
+        "aggregate": "count",
+        "type": "quantitative",
+         "scale": {"type": "linear", "range": ["#c2ead8","#23A87E","#1A7A5B","#0C5F45","#153D2A"]}
+      },
+      "tooltip": [{"field":"NetWorth", "type":"quantitative","format":".1f", "title": "Net Worth in $B"},
+      {"field":"Age Range", "type": "quantitative", "title": "Age Range"},
+      {"aggregate":"count","type": "quantitative"
+      }],
+      "strokeWidth": {
+        "condition": [
+          {
+            "param": "select",
+            "empty": false,
+            "value": 2
+          },
+          {
+            "param": "highlight",
+            "empty": false,
+            "value": 1
+          }
+        ],
+        "value": 0
+      }
+    }},{"mark":{"type": "text","color":"yellow",
+  "align":"right", "baseline": "line-bottom", "font":"Times New Roman",
+  "dx": 450,"dy": 155, "fontWeight":"lighter",
+  "fontSize": 12}, "encoding": {"text":{"value":["Only 3% of the world's billionaires "," have a net worth of more than $20B "]},
+  "color":{"value":"black"}}}],
+    
+    "config": {
+      "view": {
+        "stroke": "transparent"
+      },
+      "axis": {"labelFont": "Times New Roman", "titleFont": "Times New Roman"},
+    "legend": {"labelFont": "Times New Roman", "titleFont": "Times New Roman"},
+    "title": {"font": "Times New Roman", "subtitleFont": "Helvetica", "fontSize":20}
+    }
+  }
+  

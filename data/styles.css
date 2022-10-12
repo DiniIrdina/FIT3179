@@ -22,8 +22,9 @@ h2 {
     padding-top: 20px;
     padding-bottom: 10px;
     font-family: parklane;
-    font-size: 2em;
+    font-size: 1.8em;
     text-align: center;
+    align-self: center;
 }
 
 body {
