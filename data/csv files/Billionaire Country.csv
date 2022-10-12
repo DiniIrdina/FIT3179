@@ -1,4 +1,4 @@
-Country,longitude,latitude,Count,Population,"Billionaires per 1,000,000 Population"
+Country,longitude,latitude,Count,Population,BP
 United States of America,"-95.712891	",37.09024,724,"331,002,651",2.2
 China,104.195397,"	35.86166",626,"1,439,323,776",0.5
 India,78.96288,"20.593684	",140,"1,393,409,038",0.2
