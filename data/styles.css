@@ -16,6 +16,7 @@ h1 {
     font-family: parklane;
     text-align: center;
     position: relative;
+    padding-bottom: 5px;
 
 }
 
@@ -26,6 +27,14 @@ h2 {
     font-size: 1.8em;
     text-align: center;
     align-self: center;
+}
+
+h3 {
+    padding-bottom: 30px;
+    color: rgb(87, 87, 87);
+    font-family: parklane;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 body {
