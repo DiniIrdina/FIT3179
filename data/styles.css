@@ -84,7 +84,7 @@ p{
 	font-family:'Times New Roman', Times, serif;
 	color:#100e0e;
     min-width: 250px ;
-    max-width: 250px;
+    max-width: 220px;
     padding-bottom:20px ;
 }
 
@@ -111,11 +111,14 @@ h1 {
 
 .gold {
     font-family: 'Times New Roman', Times, serif;
-    color: #F2BB05;
+    color: #d3a203;
+    font-weight: bold;
 }
 
 .green{
-    color: #123325;
+    color: #277153;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 #container1{

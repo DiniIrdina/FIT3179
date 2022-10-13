@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
  
-  "width": 400,
+  "width": 500,
   
   "background": null,
   "config": {"axis": {"labelFont": "Open Sans", "titleFont": "Open Sans","titleFontSize":13, "labelFontSize":11},
@@ -50,10 +50,10 @@ null,
   "encoding": {
     "x": {"field": "NetWorth", "type": "quantitative", "title": "Net Worth in $B"},
     "y": {"field": "Name", "title": "Billionaires"},
-    "color": {"field": "NetWorth", "type": "quantitative","scale": {"range":  ["#c2ead8","#23A87E","#1A7A5B","#0C5F45","#153D2A"]
+    "color": {"field": "NetWorth", "type": "quantitative", "legend":null,"scale": {"range":  ["#c2ead8","#23A87E","#1A7A5B","#0C5F45","#153D2A"]
     }
   },
-  "tooltip": [{"field":"NetWorth", "type":"quantitative","format":".1f", "title": "Net Worth in $B"},
+  "tooltip": [{"field":"Rank","type": "ordinal"},{"field":"NetWorth", "type":"quantitative","format":".1f", "title": "Net Worth in $B"},
   {"field": "Country"}]
   }
 }]
