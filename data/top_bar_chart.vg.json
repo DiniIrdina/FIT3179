@@ -1,61 +1,219 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
- 
   "width": 500,
-  
-  "background": null,
-  "config": {"axis": {"labelFont": "Open Sans", "titleFont": "Open Sans","titleFontSize":13, "labelFontSize":11},
-  "legend": {"labelFont": "Open Sans", "titleFont": "Open Sans","titleFontSize":13, "labelFontSize":11},
-  "title": {"font": "Times New Roman", "subtitleFont": "Helvetica", "fontSize":20}},
-
-  "height": {"step": 25},
-  "data": {"url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/data/csv%20files/Billionaire%20Networth.csv"},
-
-  "transform": [
-    {
-      "window": [{
-        "op": "rank",
-        "as": "rank"
-      }],
-      "sort": [{ "field": "NetWorth", "order": "descending" }]
-    }, {
-      "filter": "datum.Rank <= 10 && Country_selection == null || datum.Country == Country_selection"
-    }
-  ],
-
-  "params": [
-{
-"name": "Country_selection","bind": {
-"input": "select",
-"options": [
-null,
-"Algeria", "Argentina", "Australia", "Austria", "Belgium", "Brazil", "Canada",
-"Chile", "China", "Colombia", "Cyprus", "Czechia", "Denmark", "Egypt", "Finland",
-"France", "Georgia", "Germany", "Greece", "Hong Kong", "Hungary", "Iceland", "India",
-"Indonesia", "Ireland", "Israel", "Italy", "Japan", "Kazakhstan", "Lebanon", "Liechtenstein", "Macao", "Malaysia", "Mexico", "Monaco", "Morocco", "Nepal", "Netherlands", "New Zealand", "Nigeria", "Norway", "Oman", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia", "Singapore", "Slovakia", "South Africa", "South Korea", "Spain", "Sweden", "Switzerland", "Taiwan", "Tanzania", "Thailand", "Turkey", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Venezuela", "Vietnam", "Zimbabwe"
-],
-"labels":[
-"Show All",
-"Algeria", "Argentina", "Australia", "Austria", "Belgium", "Brazil", "Canada",
-"Chile", "China", "Colombia", "Cyprus", "Czechia", "Denmark", "Egypt", "Finland",
-"France", "Georgia", "Germany", "Greece", "Hong Kong", "Hungary", "Iceland", "India",
-"Indonesia", "Ireland", "Israel", "Italy", "Japan", "Kazakhstan", "Lebanon", "Liechtenstein", "Macao", "Malaysia", "Mexico", "Monaco", "Morocco", "Nepal", "Netherlands", "New Zealand", "Nigeria", "Norway", "Oman", "Peru", "Philippines", "Poland", "Portugal", "Qatar", "Romania", "Russia", "Singapore", "Slovakia", "South Africa", "South Korea", "Spain", "Sweden", "Switzerland", "Taiwan", "Tanzania", "Thailand", "Turkey", "Ukraine", "United Arab Emirates", "United Kingdom", "United States of America", "Venezuela", "Vietnam", "Zimbabwe"
-],
-"name": "Country Selection: "
-}
-}
-],
-"layer":[{
-  "mark": "bar",
-  "encoding": {
-    "x": {"field": "NetWorth", "type": "quantitative", "title": "Net Worth in $B"},
-    "y": {"field": "Name", "title": "Billionaires"},
-    "color": {"field": "NetWorth", "type": "quantitative", "legend":null,"scale": {"range":  ["#c2ead8","#23A87E","#1A7A5B","#0C5F45","#153D2A"]
+  "background":null,
+  "config": {
+    "axis": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "titleFontSize": 13,
+      "labelFontSize": 11
+    },
+    "legend": {
+      "labelFont": "Open Sans",
+      "titleFont": "Open Sans",
+      "titleFontSize": 13,
+      "labelFontSize": 11
+    },
+    "title": {
+      "font": "Times New Roman",
+      "subtitleFont": "Helvetica",
+      "fontSize": 20
     }
   },
-  "tooltip": [{"field":"Rank","type": "ordinal"},{"field":"NetWorth", "type":"quantitative","format":".1f", "title": "Net Worth in $B"},
-  {"field": "Country"}]
-  }
-}]
-  
+  "height": {"step": 25},
+  "data": {
+    "url": "https://raw.githubusercontent.com/DiniIrdina/FIT3179/main/data/csv%20files/Billionaire%20Networth.csv"
+  },
+  "transform": [
+    { "filter": "(Country_selection == null && datum.Rank <= 10) || datum.Country == Country_selection"},
+    {
+      "window": [{"op": "rank", "as": "ranked"}],
+      "sort": [{"field": "NetWorth", "order": "descending"}]
+    },
+    {
+      "filter": "datum.ranked <= 10" 
+    }
+  ],
+  "params": [
+    {
+      "name": "Country_selection",
+      "bind": {
+        "input": "select",
+        "options": [
+          null,
+          "Algeria",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Cyprus",
+          "Czechia",
+          "Denmark",
+          "Egypt",
+          "Finland",
+          "France",
+          "Georgia",
+          "Germany",
+          "Greece",
+          "Hong Kong",
+          "Hungary",
+          "Iceland",
+          "India",
+          "Indonesia",
+          "Ireland",
+          "Israel",
+          "Italy",
+          "Japan",
+          "Kazakhstan",
+          "Lebanon",
+          "Liechtenstein",
+          "Macao",
+          "Malaysia",
+          "Mexico",
+          "Monaco",
+          "Morocco",
+          "Nepal",
+          "Netherlands",
+          "New Zealand",
+          "Nigeria",
+          "Norway",
+          "Oman",
+          "Peru",
+          "Philippines",
+          "Poland",
+          "Portugal",
+          "Qatar",
+          "Romania",
+          "Russia",
+          "Singapore",
+          "Slovakia",
+          "South Africa",
+          "South Korea",
+          "Spain",
+          "Sweden",
+          "Switzerland",
+          "Taiwan",
+          "Tanzania",
+          "Thailand",
+          "Turkey",
+          "Ukraine",
+          "United Arab Emirates",
+          "United Kingdom",
+          "United States",
+          "Venezuela",
+          "Vietnam",
+          "Zimbabwe"
+        ],
+        "labels": [
+          "Show All",
+          "Algeria",
+          "Argentina",
+          "Australia",
+          "Austria",
+          "Belgium",
+          "Brazil",
+          "Canada",
+          "Chile",
+          "China",
+          "Colombia",
+          "Cyprus",
+          "Czechia",
+          "Denmark",
+          "Egypt",
+          "Finland",
+          "France",
+          "Georgia",
+          "Germany",
+          "Greece",
+          "Hong Kong",
+          "Hungary",
+          "Iceland",
+          "India",
+          "Indonesia",
+          "Ireland",
+          "Israel",
+          "Italy",
+          "Japan",
+          "Kazakhstan",
+          "Lebanon",
+          "Liechtenstein",
+          "Macao",
+          "Malaysia",
+          "Mexico",
+          "Monaco",
+          "Morocco",
+          "Nepal",
+          "Netherlands",
+          "New Zealand",
+          "Nigeria",
+          "Norway",
+          "Oman",
+          "Peru",
+          "Philippines",
+          "Poland",
+          "Portugal",
+          "Qatar",
+          "Romania",
+          "Russia",
+          "Singapore",
+          "Slovakia",
+          "South Africa",
+          "South Korea",
+          "Spain",
+          "Sweden",
+          "Switzerland",
+          "Taiwan",
+          "Tanzania",
+          "Thailand",
+          "Turkey",
+          "Ukraine",
+          "United Arab Emirates",
+          "United Kingdom",
+          "United States of America",
+          "Venezuela",
+          "Vietnam",
+          "Zimbabwe"
+        ],
+        "name": "Country Selection: "
+      }
+    }
+  ],
+  "layer": [
+    {
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "NetWorth",
+          "type": "quantitative",
+          "title": "Net Worth in $B"
+        },
+        "y": {"field": "Name", "title": "Billionaires", "sort": {"field": "Rank"}},
+        "color": {
+          "field": "NetWorth",
+          "type": "quantitative",
+          "legend": null,
+          "scale": {
+            "range": ["#c2ead8", "#23A87E", "#1A7A5B", "#0C5F45", "#153D2A"]
+          }
+        },
+        "tooltip": [
+          {"field": "Rank", "type": "ordinal"},
+          {
+            "field": "NetWorth",
+            "type": "quantitative",
+            "format": ".1f",
+            "title": "Net Worth in $B"
+          },
+          {"field": "Country"}
+        ]
+      }
+    }
+  ]
+
 }
