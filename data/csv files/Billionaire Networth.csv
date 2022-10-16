@@ -1,4 +1,4 @@
-Name,NetWorth,Country,Continent,Source,Continent Rank,Rank,Age Range,Industry,,Age
+Name,NetWorth,Country,Continent,Source,Continent_Rank,Rank,Age Range,Industry,,Age
 Jeff Bezos,177,United States,North America,Amazon,1,1,50,Technology,,51
 Elon Musk,151,United States,North America,"Tesla, SpaceX",2,2,40,Automotive,,N/A
 Bernard Arnault & family,150,France,Europe,LVMH,1,3,70,Fashion & Retail,,N/A
