@@ -277,7 +277,7 @@ Anthony von Mandl,8.7,Canada,,alcoholic beverages,,274,N/A,Food & Beverage,,61
 Benu Gopal Bangur,8.7,India,Asia,cement,,274,80,Manufacturing,,85
 Carlos Alberto Sicupira & family,8.7,Brazil,South America,beer,7,274,70,Food & Beverage,,55
 Cheng Xue,8.7,China,Asia,soy sauce,,274,50,Food & Beverage,,65
-Graeme Hart,8.7,New Zealand,,investments,7,274,60,Finance & Investments,,76
+Graeme Hart,8.7,New Zealand,Oceania,investments,7,274,60,Finance & Investments,,76
 Kjeld Kirk Kristiansen,8.7,Denmark,,Lego,,274,70,Manufacturing,,77
 Lin Bin,8.7,United States,North America,smartphones,,274,50,Technology,,87
 Liu Jincheng & family,8.7,China,Asia,lithium batteries,,274,50,Technology,,67
@@ -539,7 +539,7 @@ Yao Zhenhua & family,5.3,China,Asia,conglomerate,,529,50,Diversified,,86
 Yu Yong,5.3,China,Asia,mining,,529,60,Finance & Investments,,70
 Akio Nitori,5.2,Japan,,home furnishings,,539,70,Fashion & Retail,,92
 David Velez,5.2,Colombia,South America,fintech,15,539,30,Finance & Investments,,81
-Frank Lowy,5.2,Australia,,shopping malls,8,539,90,Real Estate,,74
+Frank Lowy,5.2,Australia,Oceania,shopping malls,8,539,90,Real Estate,,74
 Gary Rollins,5.2,United States,North America,pest control,,539,70,Service,,75
 Giuseppe De'Longhi & family,5.2,Italy,Europe,coffee makers,,539,80,Fashion & Retail,,57
 Joe Mansueto,5.2,United States,North America,investment research,,539,60,Finance & Investments,,67
@@ -595,7 +595,7 @@ Elizabeth Johnson,4.8,United States,North America,money management,,589,50,Finan
 Frank Wang,4.8,China,Asia,drones,,589,40,Technology,,44
 Huang Yi,4.8,Hong Kong,,car dealerships,,589,50,Automotive,,73
 Issad Rebrab & family,4.8,Algeria,Africa,food,7,589,70,Food & Beverage,,57
-"John, Alan & Bruce Wilson",4.8,Australia,,retailing,9,589,N/A,Fashion & Retail,,68
+"John, Alan & Bruce Wilson",4.8,Australia,Oceania,retailing,9,589,N/A,Fashion & Retail,,68
 Lin Shu-hong,4.8,Taiwan,,petrochemicals,,589,90,Manufacturing,,75
 M.A. Yusuff Ali,4.8,India,Asia,retail,,589,60,Fashion & Retail,,41
 Pierre Bellon & family,4.8,France,Europe,food services,,589,90,Service,,88
@@ -666,7 +666,7 @@ Zhang Daocai,4.4,China,Asia,valves,,655,70,Diversified,,N/A
 Antony Ressler,4.3,United States,North America,finance,,665,50,Finance & Investments,,65
 Edwin Leong,4.3,Hong Kong,,real estate,,665,60,Real Estate,,65
 Eric Lefkofsky,4.3,United States,North America,Groupon,,665,50,Technology,,69
-Kerry Stokes,4.3,Australia,,"construction equipment, media",10,665,80,Diversified,,66
+Kerry Stokes,4.3,Australia,Oceania,"construction equipment, media",10,665,80,Diversified,,66
 Lee Yin Yee,4.3,China,Asia,glass,,665,60,Manufacturing,,63
 Pansy Ho,4.3,Hong Kong,,casinos,,665,50,Gambling & Casinos,,92
 Paul Singer,4.3,United States,North America,hedge funds,,665,70,Finance & Investments,,52
@@ -775,7 +775,7 @@ Yi Zheng,3.9,China,Asia,software,,752,50,Technology,,43
 Zhang Wenzhong,3.9,China,Asia,supermarkets,,752,50,Fashion & Retail,,80
 Aerin Lauder,3.8,United States,North America,cosmetics,,775,50,Fashion & Retail,,52
 "Amos Hostetter, Jr.",3.8,United States,North America,cable television,,775,80,Media & Entertainment,,57
-Clive Palmer,3.8,Australia,,mining,11,775,60,Metals & Mining,,67
+Clive Palmer,3.8,Australia,Oceania,mining,11,775,60,Metals & Mining,,67
 Daniel D'Aniello,3.8,United States,North America,private equity,,775,70,Finance & Investments,,67
 Dirk Rossmann & family,3.8,Germany,Europe,drugstores,,775,70,Fashion & Retail,,34
 Don Vultaggio & family,3.8,United States,North America,beverages,,775,60,Food & Beverage,,86
@@ -787,7 +787,7 @@ Hans Georg Naeder,3.8,Germany,Europe,prosthetics,,775,50,Manufacturing,,80
 Ivar Tollefsen,3.8,Norway,,real estate,,775,50,Real Estate,,81
 Jaime Gilinski Bacal,3.8,Colombia,South America,banking,,775,60,Finance & Investments,,54
 Jeff Green,3.8,United States,North America,online advertising,,775,40,Media & Entertainment,,79
-John Gandel,3.8,Australia,,shopping malls,,775,80,Real Estate,,63
+John Gandel,3.8,Australia,Oceania,shopping malls,,775,80,Real Estate,,63
 Karsanbhai Patel,3.8,India,Asia,consumer goods,,775,70,Diversified,,54
 Kuok Khoon Hong,3.8,Singapore,,palm oil,,775,70,Manufacturing,,48
 Lai Jianping,3.8,China,Asia,soy sauce,,775,N/A,Food & Beverage,,93
@@ -885,7 +885,7 @@ Romesh T. Wadhwani,3.5,United States,North America,software,,859,70,Technology,,
 Sergei Galitsky,3.5,Russia,Europe,retail,,859,50,Fashion & Retail,,82
 Shyam & Hari Bhartia,3.5,India,Asia,diversified,,859,60,Diversified,,64
 Thomas Secunda,3.5,United States,North America,Bloomberg LP,,859,60,Media & Entertainment,,81
-Vivek Chaand Sehgal,3.5,Australia,,auto parts,,859,60,Automotive,,68
+Vivek Chaand Sehgal,3.5,Australia,Oceania,auto parts,,859,60,Automotive,,68
 Wu Shaoxun,3.5,China,Asia,wine,,859,60,Food & Beverage,,N/A
 Ye Guofu,3.5,China,Asia,retail,,859,40,Fashion & Retail,,74
 Zhou Jianping,3.5,China,Asia,fashion retail,,859,60,Fashion & Retail,,56
@@ -901,7 +901,7 @@ Daniel Tsai,3.4,Taiwan,,finance,,891,60,Finance & Investments,,76
 Deng Wen,3.4,China,Asia,flavorings,,891,50,Food & Beverage,,86
 Ennio Doris & family,3.4,Italy,Europe,financial services,,891,80,Finance & Investments,,79
 Eric Ya Shen,3.4,China,Asia,online apparel retail,,891,50,Technology,,68
-Fiona Geminder,3.4,Australia,,manufacturing,,891,50,Manufacturing,,70
+Fiona Geminder,3.4,Australia,Oceania,manufacturing,,891,50,Manufacturing,,70
 Francesco Gaetano Caltagirone,3.4,Italy,Europe,"cement, diversified",,891,70,Construction & Engineering,,39
 Frank VanderSloot,3.4,United States,North America,"nutrition, wellness products",,891,70,Fashion & Retail,,56
 Gayle Benson,3.4,United States,North America,pro sports teams,,891,70,Sports,,74
@@ -961,8 +961,8 @@ Don Hankey,3.2,United States,North America,auto loans,,956,70,Finance & Investme
 Giuliana Benetton,3.2,Italy,Europe,"fashion retail, investments",,956,80,Fashion & Retail,,64
 He Zhaoxi,3.2,China,Asia,software,,956,40,Technology,,58
 Heidi Horten,3.2,Austria,,retail,,956,80,Fashion & Retail,,62
-Jack Cowin,3.2,Australia,,fast food,,956,70,Food & Beverage,,56
-James Packer,3.2,Australia,,casinos,,956,50,Gambling & Casinos,,58
+Jack Cowin,3.2,Australia,Oceania,fast food,,956,70,Food & Beverage,,56
+James Packer,3.2,Australia,Oceania,casinos,,956,50,Gambling & Casinos,,58
 John Collison,3.2,Ireland,,payments software,,956,30,Technology,,46
 John Sall,3.2,United States,North America,software,,956,70,Technology,,67
 Juan Carlos Escotet,3.2,Venezuela,South America,banking,,956,60,Finance & Investments,,64
@@ -1049,7 +1049,7 @@ Pedro de Godoy Bueno,3,Brazil,South America,health insurance,,1008,30,Healthcare
 Peter Grogg,3,Switzerland,,biochemicals,,1008,70,Healthcare,,56
 Peter Lim,3,Singapore,,investments,,1008,60,Finance & Investments,,61
 Philippe Foriel-Destezet,3,France,Europe,employment agency,,1008,80,Service,,62
-Richard White,3,Australia,,software,,1008,60,Technology,,62
+Richard White,3,Australia,Oceania,software,,1008,60,Technology,,62
 Sheldon Lavin,3,United States,North America,meat processing,,1008,80,Food & Beverage,,76
 Song Zuowen,3,China,Asia,"aluminum, diversified",,1008,70,Diversified,,62
 Sybill Storz,3,Germany,Europe,medical devices,,1008,80,Healthcare,,66
@@ -1133,7 +1133,7 @@ Eva Maria Bucher-Haefner,2.8,Switzerland,,"software, investments",,1111,60,Techn
 Filiz Sahenk,2.8,Turkey,,diversified,,1111,50,Diversified,,49
 Gary Friedman,2.8,United States,North America,Furniture retail,,1111,60,Fashion & Retail,,76
 Hans Melchers,2.8,Netherlands,,"chemicals, investments",,1111,80,Finance & Investments,,86
-Heloise Pratt,2.8,Australia,,"manufacturing, investment",,1111,50,Manufacturing,,66
+Heloise Pratt,2.8,Australia,Oceania,"manufacturing, investment",,1111,50,Manufacturing,,66
 Hilton Schlosberg,2.8,United Kingdom,,energy drinks,,1111,60,Food & Beverage,,64
 James Clark,2.8,United States,North America,"Netscape, investments",,1111,70,Technology,,45
 Jean Coutu & family,2.8,Canada,,drugstores,,1111,90,Fashion & Retail,,71
@@ -1340,7 +1340,7 @@ Michael Ying,2.4,Hong Kong,,retail,,1299,70,Fashion & Retail,,47
 Nadir Godrej,2.4,India,Asia,consumer goods,,1299,70,Diversified,,93
 Philip & Cristina Green,2.4,United Kingdom,,fashion retail,,1299,60,Fashion & Retail,,N/A
 Renate Sick-Glaser,2.4,Germany,Europe,sensor technology,,1299,N/A,Technology,,69
-Richard Chandler,2.4,New Zealand,,investments,,1299,60,Finance & Investments,,63
+Richard Chandler,2.4,New Zealand,Oceania,investments,,1299,60,Finance & Investments,,63
 Rishad Naoroji,2.4,India,Asia,consumer goods,,1299,60,Diversified,,68
 Robert Miller,2.4,United Kingdom,,retail,,1299,80,Fashion & Retail,,51
 Roman Trotsenko,2.4,Russia,Europe,"transport, engineering, real estate",,1299,50,Logistics,,63
@@ -1371,7 +1371,7 @@ Bang Shi-hyuk,2.3,South Korea,,entertainment,,1362,40,Media & Entertainment,,51
 Barry Zekelman,2.3,Canada,,steel,,1362,50,Manufacturing,,N/A
 Bill Alfond,2.3,United States,North America,shoes,,1362,70,Fashion & Retail,,53
 Bill and Jean Adderley & family,2.3,United Kingdom,,home furnishings,,1362,70,Fashion & Retail,,68
-Bob Ell,2.3,Australia,,real estate,,1362,70,Real Estate,,43
+Bob Ell,2.3,Australia,Oceania,real estate,,1362,70,Real Estate,,43
 Boris Jordan,2.3,United States,North America,cannabis,,1362,50,Manufacturing,,64
 Cao Longxiang & family,2.3,China,Asia,pharmaceuticals,,1362,60,Healthcare,,57
 Carlos Ardila Lülle,2.3,Colombia,South America,"soft drinks, diversified",,1362,90,Food & Beverage,,92
@@ -1379,7 +1379,7 @@ Charlotte Soderstrom,2.3,Sweden,,H&M,,1362,40,Fashion & Retail,,55
 Chen Zhisong,2.3,China,Asia,communication equipment,,1362,50,Technology,,57
 Clayton Mathile,2.3,United States,North America,pet food,,1362,80,Food & Beverage,,53
 Daniel Mate,2.3,Spain,,"mining, commodities",,1362,50,Metals & Mining,,63
-David Hains,2.3,Australia,,Investments,,1362,90,Finance & Investments,,55
+David Hains,2.3,Australia,Oceania,Investments,,1362,90,Finance & Investments,,55
 David Jiang,2.3,China,Asia,e-cigarettes,,1362,40,Manufacturing,,53
 David Xueling Li,2.3,China,Asia,live streaming service,,1362,40,Technology,,43
 Deng Yingzhong,2.3,China,Asia,paper,,1362,70,Manufacturing,,69
@@ -1389,7 +1389,7 @@ Elaine Wynn,2.3,United States,North America,"casinos, hotels",,1362,70,Gambling 
 Eugene Murtagh,2.3,Ireland,,building materials,,1362,70,Manufacturing,,56
 Fernando Roberto Moreira Salles,2.3,Brazil,South America,"banking, minerals",,1362,70,Diversified,,55
 Fong Yun Wah,2.3,Hong Kong,,real estate,,1362,90,Real Estate,,43
-Gretel Packer,2.3,Australia,,casinos,,1362,50,Media & Entertainment,,56
+Gretel Packer,2.3,Australia,Oceania,casinos,,1362,50,Media & Entertainment,,56
 Guan Yihong,2.3,China,Asia,restaurant,,1362,50,Food & Beverage,,44
 Harsh Goenka,2.3,India,Asia,diversified,,1362,60,Diversified,,58
 Hua Xuande & family,2.3,China,Asia,pharmaceuticals,,1362,70,Healthcare,,39
@@ -1408,14 +1408,14 @@ Kostyantin Zhevago,2.3,Ukraine,,mining,,1362,40,Metals & Mining,,57
 Krit Ratanarak,2.3,Thailand,,"media, real estate",,1362,70,Media & Entertainment,,59
 Lai Jianfa,2.3,China,Asia,express delivery,,1362,50,Logistics,,49
 Lam Kong,2.3,China,Asia,pharmaceuticals,,1362,50,Healthcare,,64
-Lang Walker,2.3,Australia,,real estate,,1362,70,Real Estate,,53
+Lang Walker,2.3,Australia,Oceania,real estate,,1362,70,Real Estate,,53
 Li Xuhui,2.3,China,Asia,soy sauce,,1362,50,Food & Beverage,,56
 Liang Zhaoxian,2.3,China,Asia,appliances,,1362,50,Manufacturing,,57
-Lindsay Fox,2.3,Australia,,"logistics, real estate",,1362,80,Logistics,,52
+Lindsay Fox,2.3,Australia,Oceania,"logistics, real estate",,1362,80,Logistics,,52
 Liu Ming Chung,2.3,Brazil,South America,paper,,1362,50,Manufacturing,,56
 Maria Del Pino,2.3,Spain,,construction,,1362,60,Construction & Engineering,,63
 Mario Germano Giuliani,2.3,Switzerland,,pharmaceuticals,,1362,40,Healthcare,,83
-Michael Hintze,2.3,Australia,,investment,,1362,60,Finance & Investments,,92
+Michael Hintze,2.3,Australia,Oceania,investment,,1362,60,Finance & Investments,,92
 Michael Saylor,2.3,United States,North America,cryptocurrency,,1362,50,Technology,,69
 Mustafa Rahmi Koc,2.3,Turkey,,diversified,,1362,90,Diversified,,63
 Nihat Ozdemir,2.3,Turkey,,diversified,,1362,70,Diversified,,53
@@ -1461,7 +1461,7 @@ Dermot Desmond,2.2,Ireland,,finance,,1444,70,Finance & Investments,,56
 Edward Bass,2.2,United States,North America,"oil, investments",,1444,70,Energy,,52
 "Frank Fertitta, III.",2.2,United States,North America,"casinos, mixed martial arts",,1444,50,Sports,,55
 Gavril Yushvaev,2.2,Russia,Europe,"precious metals, real estate",,1444,60,Finance & Investments,,71
-Gerry Harvey,2.2,Australia,,retail,,1444,80,Fashion & Retail,,57
+Gerry Harvey,2.2,Australia,Oceania,retail,,1444,80,Fashion & Retail,,57
 Gu Wei,2.2,China,Asia,consumer electronics,,1444,50,Manufacturing,,64
 Guo Jiangang,2.2,China,Asia,household appliances,,1444,50,Manufacturing,,64
 Huang Guanlin,2.2,China,Asia,"textiles, apparel",,1444,50,Fashion & Retail,,74
@@ -1586,7 +1586,7 @@ Andy Fang,2,United States,North America,food delivery app,,1580,20,Technology,,5
 Anne Beaufour,2,France,Europe,pharmaceuticals,,1580,50,Healthcare,,56
 Arvind Tiku,2,India,Asia,"oil & gas, investments",,1580,50,Energy,,83
 Bahaa Hariri,2,Lebanon,,"real estate, investments",,1580,50,Real Estate,,67
-Brett Blundy,2,Australia,,"retail, agribusiness",,1580,60,Fashion & Retail,,61
+Brett Blundy,2,Australia,Oceania,"retail, agribusiness",,1580,60,Fashion & Retail,,61
 Charles Munger,2,United States,North America,Berkshire Hathaway,,1580,90,Finance & Investments,,71
 Craig McCaw,2,United States,North America,telecom,,1580,70,Telecom,,55
 Dai Wenjun,2,China,Asia,food,,1580,50,Food & Beverage,,65
@@ -1643,7 +1643,7 @@ Sathien Setthasit,2,Thailand,,energy drinks,,1580,60,Food & Beverage,,59
 Sergei Kolesnikov,2,Russia,Europe,building materials,,1580,40,Manufacturing,,66
 Shen Xiqiang & family,2,China,Asia,chemical,,1580,70,Energy,,77
 Sol Daurella,2,Spain,,Coca-Cola bottler,,1580,50,Food & Beverage,,75
-Solomon Lew,2,Australia,,retail,,1580,70,Fashion & Retail,,53
+Solomon Lew,2,Australia,Oceania,retail,,1580,70,Fashion & Retail,,53
 Stanley Tang,2,United States,North America,food delivery app,,1580,20,Technology,,72
 Sylvia Stroeher,2,Germany,Europe,cosmetics,,1580,60,Fashion & Retail,,68
 Tang Xiuguo,2,China,Asia,manufacturing,,1580,50,Manufacturing,,48
@@ -1680,7 +1680,7 @@ Chen Tei-fu,1.9,Taiwan,,herbal products,,1664,70,Fashion & Retail,,46
 Christopher Kwok,1.9,Hong Kong,,real estate,,1664,30,Real Estate,,59
 Christopher Rokos,1.9,United Kingdom,,hedge fund,,1664,50,Finance & Investments,,70
 Chung Yong-jin,1.9,South Korea,,retail,,1664,50,Fashion & Retail,,64
-David Teoh & family,1.9,Australia,,telecom,,1664,60,Telecom,,71
+David Teoh & family,1.9,Australia,Oceania,telecom,,1664,60,Telecom,,71
 Edward Kwok,1.9,Hong Kong,,real estate,,1664,40,Real Estate,,91
 Ermirio Pereira de Moraes,1.9,Brazil,South America,diversified,,1664,80,Diversified,,76
 Evgeny (Eugene) Shvidler,1.9,United States,North America,"oil & gas, investments",,1664,50,Energy,,92
@@ -1751,7 +1751,7 @@ Zhu Yiwen & family,1.9,China,Asia,healthcare,,1664,N/A,Healthcare,,59
 Ali Erdemoglu,1.8,Turkey,,carpet,,1750,60,Manufacturing,,75
 Ali Ghodsi,1.8,Sweden,,data analytics,,1750,40,Technology,,95
 Alvaro Saieh Bendeck,1.8,Chile,South America,banking,,1750,70,Finance & Investments,,66
-Anthony Eisen,1.8,Australia,,fintech,,1750,40,Finance & Investments,,85
+Anthony Eisen,1.8,Australia,Oceania,fintech,,1750,40,Finance & Investments,,85
 Arun Bharat Ram,1.8,India,Asia,chemicals,,1750,80,Manufacturing,,88
 Brian Higgins,1.8,United States,North America,hedge funds,,1750,50,Finance & Investments,,58
 Cai Mingtong,1.8,China,Asia,electronic components,,1750,60,Technology,,77
@@ -1794,7 +1794,7 @@ Martin Viessmann,1.8,Germany,Europe,heating and cooling equipment,,1750,60,Manuf
 Miao Shouliang,1.8,China,Asia,real estate,,1750,60,Real Estate,,32
 Mohamed Al Fayed,1.8,Egypt,Africa,"retail, investments",14,1750,90,Fashion & Retail,,57
 N. Murray Edwards,1.8,Canada,,oil & gas,,1750,60,Energy,,65
-Nick Molnar,1.8,Australia,,fintech,,1750,30,Finance & Investments,,79
+Nick Molnar,1.8,Australia,Oceania,fintech,,1750,30,Finance & Investments,,79
 O. Francis Biondi,1.8,United States,North America,hedge funds,,1750,50,Finance & Investments,,83
 Oei Hong Leong,1.8,Singapore,,investments,,1750,70,Finance & Investments,,68
 Pu Zhongjie & family,1.8,China,Asia,medical equipment,,1750,50,Healthcare,,40
@@ -1836,7 +1836,7 @@ Alexandra Daitch,1.7,United States,North America,Cargill,,1833,50,Food & Beverag
 Andres Santo Domingo,1.7,United States,North America,beer,,1833,40,Food & Beverage,,39
 Anurang Jain,1.7,India,Asia,auto parts,,1833,50,Manufacturing,,53
 Bernd Freier,1.7,Germany,Europe,fashion retail,,1833,60,Fashion & Retail,,76
-Bianca Rinehart,1.7,Australia,,mining,,1833,40,Metals & Mining,,74
+Bianca Rinehart,1.7,Australia,Oceania,mining,,1833,40,Metals & Mining,,74
 Bill Liu,1.7,China,Asia,electronics,,1833,30,Technology,,56
 Brunello Cucinelli & family,1.7,Italy,Europe,fashion,,1833,60,Fashion & Retail,,55
 Chang-Woo Han & family,1.7,Japan,,pachinko parlors,,1833,90,Gambling & Casinos,,58
@@ -1862,18 +1862,18 @@ Fernando Roig,1.7,Spain,,supermarkets,,1833,70,Fashion & Retail,,51
 G. Gnanalingam,1.7,Malaysia,,ports,,1833,70,Logistics,,61
 Gary Michelson,1.7,United States,North America,medical patents,,1833,70,Healthcare,,77
 Giammaria Giuliani,1.7,Switzerland,,pharmaceuticals,,1833,40,Healthcare,,78
-Ginia Rinehart,1.7,Australia,,mining,,1833,30,Metals & Mining,,76
+Ginia Rinehart,1.7,Australia,Oceania,mining,,1833,30,Metals & Mining,,76
 Giuliana Caprotti,1.7,Italy,Europe,supermarkets,,1833,80,Food & Beverage,,88
 Henadiy Boholyubov,1.7,Ukraine,,"banking, investments",,1833,50,Diversified,,89
 Henry Engelhardt,1.7,United States,North America,insurance,,1833,60,Finance & Investments,,N/A
-Hope Welker,1.7,Australia,,mining,,1833,30,Metals & Mining,,75
+Hope Welker,1.7,Australia,Oceania,mining,,1833,30,Metals & Mining,,75
 Ion Tiriac,1.7,Romania,,"banking, insurance",,1833,80,Finance & Investments,,74
 Ivan Chrenko,1.7,Slovakia,,real estate,,1833,50,Real Estate,,65
 Ivan Savvidis,1.7,Russia,Europe,agribusiness,,1833,60,Diversified,,58
 Jerry Reinsdorf,1.7,United States,North America,sports teams,,1833,80,Sports,,66
 Jia Tianjiang & family,1.7,China,Asia,non-ferrous metals,,1833,50,Metals & Mining,,71
 Jimmy John Liautaud,1.7,United States,North America,sandwich chain,,1833,50,Food & Beverage,,59
-John Hancock,1.7,Australia,,mining,,1833,40,Metals & Mining,,51
+John Hancock,1.7,Australia,Oceania,mining,,1833,40,Metals & Mining,,51
 Jorge Perez,1.7,United States,North America,real estate,,1833,70,Real Estate,,50
 Kagemasa Kozuki,1.7,Japan,,video games,,1833,80,Technology,,63
 Kim Sang-yeol,1.7,South Korea,,construction,,1833,60,Construction & Engineering,,48
@@ -2074,7 +2074,7 @@ Jane Yan & family,1.5,China,Asia,software,,2035,50,Technology,,53
 Jerry Moyes,1.5,United States,North America,transportation,,2035,70,Logistics,,67
 John Farber,1.5,United States,North America,chemicals,,2035,90,Manufacturing,,71
 John Foley,1.5,United States,North America,Peloton,,2035,40,Technology,,68
-John Van Lieshout,1.5,Australia,,real estate,,2035,70,Real Estate,,38
+John Van Lieshout,1.5,Australia,Oceania,real estate,,2035,70,Real Estate,,38
 Ke Xiping & family,1.5,China,Asia,investments,,2035,60,Diversified,,41
 Kenny Troutt,1.5,United States,North America,telecom,,2035,70,Telecom,,62
 Kim Jun-ki,1.5,South Korea,,diversified,,2035,70,Diversified,,88
@@ -2149,7 +2149,7 @@ Ana Lucia de Mattos Barretto Villela,1.4,Brazil,South America,banking,,2141,40,F
 Anatoly Lomakin,1.4,Russia,Europe,investments,,2141,60,Metals & Mining,,43
 Andreas Pohl,1.4,Germany,Europe,mutual funds,,2141,50,Finance & Investments,,70
 Andrei Kosogov,1.4,Russia,Europe,Banking,,2141,60,Energy,,45
-Angela Bennett,1.4,Australia,,mining,,2141,70,Metals & Mining,,75
+Angela Bennett,1.4,Australia,Oceania,mining,,2141,70,Metals & Mining,,75
 Anna Maria Braun,1.4,Germany,Europe,medical technology,,2141,40,Healthcare,,55
 Antonio Marcegaglia,1.4,Italy,Europe,steel,,2141,50,Metals & Mining,,76
 Anu Aga,1.4,India,Asia,engineering,,2141,70,Construction & Engineering,,53
@@ -2200,12 +2200,12 @@ Johanna Braun,1.4,Germany,Europe,medical technology,,2141,40,Healthcare,,N/A
 John Ocampo,1.4,United States,North America,semiconductors,,2141,60,Technology,,48
 Jonathan Oringer,1.4,United States,North America,stock photos,,2141,40,Technology,,83
 Jonathan Tisch,1.4,United States,North America,"insurance, NFL team",,2141,60,Diversified,,75
-Judith Neilson,1.4,Australia,,investments,,2141,70,Finance & Investments,,60
+Judith Neilson,1.4,Australia,Oceania,investments,,2141,70,Finance & Investments,,60
 Karl Friedrich Braun,1.4,Germany,Europe,medical technology,,2141,30,Healthcare,,39
 Karl Knauf,1.4,Germany,Europe,building materials,,2141,N/A,Manufacturing,,66
 Katharina Andresen,1.4,Norway,,investments,,2141,20,Diversified,,72
 Keith Dunleavy & family,1.4,United States,North America,health IT,,2141,50,Healthcare,,77
-Kerr Neilson,1.4,Australia,,Investments,,2141,70,Finance & Investments,,66
+Kerr Neilson,1.4,Australia,Oceania,Investments,,2141,70,Finance & Investments,,66
 Li Denghai,1.4,China,Asia,seed production,,2141,70,Food & Beverage,,71
 Liang Qin & family,1.4,China,Asia,semiconductor devices,,2141,40,Technology,,58
 Liang Yaoming,1.4,China,Asia,diagnostics,,2141,50,Healthcare,,82
@@ -2220,7 +2220,7 @@ Michael Spencer,1.4,United Kingdom,,stock exchange,,2141,60,Finance & Investment
 Michaela Herz,1.4,Germany,Europe,coffee,,2141,N/A,Finance & Investments,,47
 Mimi Haas,1.4,United States,North America,Levi's jeans,,2141,70,Fashion & Retail,,71
 Mori Arkin,1.4,Israel,,pharmaceuticals,,2141,60,Healthcare,,57
-Nigel Austin,1.4,Australia,,retail,,2141,50,Fashion & Retail,,67
+Nigel Austin,1.4,Australia,Oceania,retail,,2141,50,Fashion & Retail,,67
 Nirmal Minda,1.4,India,Asia,auto parts,,2141,60,Automotive,,50
 Nobutoshi Shimamura,1.4,Japan,,retail,,2141,90,Fashion & Retail,,63
 Oliver Samwer,1.4,Germany,Europe,tech investments,,2141,40,Technology,,52
@@ -2326,7 +2326,7 @@ Mangal Prabhat Lodha,1.3,India,Asia,real estate,,2263,60,Real Estate,,66
 Martin Moller Nielsen,1.3,Denmark,,aircraft leasing,,2263,50,Logistics,,36
 Masaru Wasami,1.3,Japan,,logistics,,2263,70,Logistics,,47
 Mehmet Aydinlar,1.3,Turkey,,hospitals,,2263,60,Healthcare,,48
-Michael Heine,1.3,Australia,,financial services,,2263,70,Finance & Investments,,66
+Michael Heine,1.3,Australia,Oceania,financial services,,2263,70,Finance & Investments,,66
 Michael Krasny,1.3,United States,North America,retail,,2263,60,Technology,,51
 Mika Anttonen,1.3,Finland,,oil & gas,,2263,50,Energy,,71
 Nerio Alessandri,1.3,Italy,Europe,gym equipment,,2263,50,Manufacturing,,63
@@ -2352,7 +2352,7 @@ Shi Xu,1.3,Singapore,,technology,,2263,50,Technology,,71
 Shin Chang-jae,1.3,South Korea,,insurance,,2263,60,Finance & Investments,,69
 Stefan Pierer,1.3,Austria,,automotive,,2263,60,Automotive,,59
 Tang Zhuang,1.3,United States,North America,electronics,,2263,40,Technology,,N/A
-Terry Snow,1.3,Australia,,"airports, real estate",,2263,70,Real Estate,,78
+Terry Snow,1.3,Australia,Oceania,"airports, real estate",,2263,70,Real Estate,,78
 Thomas Sandell,1.3,Sweden,,hedge funds,,2263,60,Finance & Investments,,83
 Tim Cook,1.3,United States,North America,Apple,,2263,60,Technology,,58
 Turgay Ciner,1.3,Turkey,,diversified,,2263,60,Diversified,,56
@@ -2479,7 +2479,7 @@ Ronald Slabke,1.2,Germany,Europe,fintech,,2378,N/A,Technology,,55
 Rustem Sulteev,1.2,Russia,Europe,"refinery, chemicals",,2378,60,Energy,,90
 Ryan Graves,1.2,United States,North America,uber,,2378,30,Technology,,64
 Sachin Bansal,1.2,India,Asia,flipkart,,2378,30,Fashion & Retail,,92
-Sam Tarascio,1.2,Australia,,real estate,,2378,70,Real Estate,,67
+Sam Tarascio,1.2,Australia,Oceania,real estate,,2378,70,Real Estate,,67
 Sandor Csanyi,1.2,Hungary,,"finance, real estate",,2378,60,Diversified,,57
 Sergei Sudarikov,1.2,Russia,Europe,"finance, development",,2378,40,Finance & Investments,,45
 Shay Banon,1.2,Israel,,search engine,,2378,40,Technology,,58
@@ -2530,7 +2530,7 @@ Antonio Gallardo Ballart,1.1,Spain,,pharmaceuticals,,2524,80,Healthcare,,51
 Bai Houshan,1.1,China,Asia,lithium battery,,2524,50,Energy,,59
 Binny Bansal,1.1,India,Asia,flipkart,,2524,30,Technology,,56
 Boris Zingarevich,1.1,Russia,Europe,"pulp and paper, diversified",,2524,60,Diversified,,66
-Bruce Mathieson,1.1,Australia,,hotels,,2524,70,Food & Beverage,,51
+Bruce Mathieson,1.1,Australia,Oceania,hotels,,2524,70,Food & Beverage,,51
 Bruce Nordstrom,1.1,United States,North America,Nordstrom department stores,,2524,80,Fashion & Retail,,65
 Cai Hongbin,1.1,China,Asia,pharmaceuticals,,2524,N/A,Healthcare,,46
 Cao Jianwei,1.1,China,Asia,semiconductors,,2524,40,Manufacturing,,59
@@ -2673,7 +2673,7 @@ Zhong Peifeng,1.1,United States,North America,semiconductor,,2524,50,Telecom,,46
 Zhou Ping & family,1.1,China,Asia,utilities,,2524,50,Service,,41
 Zhou Yahui,1.1,China,Asia,online games,,2524,40,Technology,,53
 A. Jayson Adair,1,United States,North America,damaged cars,,2674,50,Automotive,,58
-Alan Rydge,1,Australia,,entertainment,,2674,60,Media & Entertainment,,71
+Alan Rydge,1,Australia,Oceania,entertainment,,2674,60,Media & Entertainment,,71
 Albert Avdolyan,1,Russia,Europe,"oil, mining",,2674,50,Energy,,55
 Anton Rabie,1,Canada,,toys,,2674,40,Manufacturing,,58
 Ashok Kajaria,1,India,Asia,tiles,,2674,70,Manufacturing,,69
@@ -2711,7 +2711,7 @@ Lev Kvetnoi,1,Russia,Europe,cement,,2674,50,Finance & Investments,,55
 Li Yinan,1,China,Asia,Investments,,2674,50,Finance & Investments,,46
 Liu Qingfeng,1,China,Asia,software,,2674,40,Technology,,58
 Ma Hong,1,China,Asia,machinery,,2674,50,Manufacturing,,55
-Manny Stul,1,Australia,,toys,,2674,70,Manufacturing,,54
+Manny Stul,1,Australia,Oceania,toys,,2674,70,Manufacturing,,54
 Mao Huihua,1,Canada,,pharmaceuticals,,2674,50,Healthcare,,54
 Marco Squinzi,1,Italy,Europe,chemical products,,2674,40,Construction & Engineering,,54
 Maria Pinheiro,1,Brazil,South America,supermarkets,,2674,N/A,Fashion & Retail,,47
