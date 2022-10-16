@@ -67,6 +67,22 @@
                   "value": 0.85
                 }, "stroke": {"value": "#F0F0C9"}
 
-  }}
+  }}, {"mark":{"type": "text","color":"yellow",
+  "align":"right", "baseline": "line-bottom", "font":"Helvetica",
+  "dx": -80,"dy": -90, "fontWeight":"lighter",
+  "fontSize": 11}, "encoding": {"text":{"value":["United States of America "]},
+  "color":{"value":"#303234"}}
+  }, {"mark":{"type": "text","color":"yellow",
+  "align":"right", "baseline": "line-bottom", "font":"Helvetica",
+  "dx": 200,"dy": -80, "fontWeight":"lighter",
+  "fontSize": 11}, "encoding": {"text":{"value":["China"]},
+  "color":{"value":"#303234"}}
+  }
+  , {"mark":{"type": "text","color":"yellow",
+  "align":"right", "baseline": "line-bottom", "font":"Helvetica",
+  "dx": 165,"dy": -50, "fontWeight":"lighter",
+  "fontSize": 11}, "encoding": {"text":{"value":["India"]},
+  "color":{"value":"#303234"}}
+  }
 ]
 }
