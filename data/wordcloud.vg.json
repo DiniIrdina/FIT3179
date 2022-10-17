@@ -18,9 +18,10 @@
           "pattern": "[\\w']{3,}"
         },
         {
-          "type": "formula", "as": "angle",
-          "expr": "[-20, 0, 20][~~(random() * 3)]"
-        },
+          "type": "formula", 
+          "as": "angle",
+          "expr": "datum.size >= 350 ? 0 : [-90,0][floor(random() * 7)]"
+          },
         {
           "type": "formula", "as": "weight",
           "expr": "if(datum.text=='TECHNOLOGY' || datum.text == 'INVESTMENTS', 800, 300)"
@@ -61,7 +62,7 @@
       "transform": [
         {
           "type": "wordcloud",
-          "size": [980, 400],
+          "size": [1000, 400],
           "text": {"field": "text"},
           "rotate": {"field": "datum.angle"},
           "font": "Times New Roman",
