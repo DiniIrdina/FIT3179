@@ -1,5 +1,5 @@
 @font-face {
-    font-family: parklane;
+    font-family: sacred;
     src: url(fonts/Sacred.ttf);
 }
 
@@ -13,7 +13,7 @@ body *{
 
 h1 {
     font-size: 3.5em;
-    font-family: parklane;
+    font-family: sacred;
     text-align: center;
     position: relative;
     padding-bottom: 5px;
@@ -23,7 +23,7 @@ h1 {
 h2 {
     padding-top: 20px;
     padding-bottom: 10px;
-    font-family: parklane;
+    font-family: sacred;
     font-size: 1.8em;
     text-align: center;
     align-self: center;
@@ -32,7 +32,7 @@ h2 {
 h3 {
     padding-bottom: 30px;
     color: rgb(87, 87, 87);
-    font-family: parklane;
+    font-family: sacred;
     font-size: 1.5em;
     text-align: center;
 }
