@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "A word cloud visualization depicting Vega research paper abstracts.",
-  "width": 980,
+  "width": 1400,
   "height": 400,
   "padding": 0,
 
@@ -23,7 +23,7 @@
         },
         {
           "type": "formula", "as": "weight",
-          "expr": "if(datum.text=='TECHNOLOGY' || datum.text == 'INVESTMENTS', 600, 300)"
+          "expr": "if(datum.text=='TECHNOLOGY' || datum.text == 'INVESTMENTS', 800, 300)"
         }
       ]
     }
@@ -67,7 +67,7 @@
           "font": "Times New Roman",
           "fontSize": {"field": "datum.count"},
           "fontWeight": {"field": "datum.weight"},
-          "fontSizeRange": [15, 70],
+          "fontSizeRange": [12, 70],
           "padding": 2
         }
       ]
